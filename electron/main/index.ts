@@ -9,6 +9,7 @@ import {
   ipcMain,
   BrowserWindow
 } from "electron";
+import { spawn } from "child_process";
 
 // The built directory structure
 //
@@ -114,6 +115,9 @@ app.whenReady().then(createWindow);
 
 app.on("window-all-closed", () => {
   win = null;
+  if (server.pid) {
+    server.kill();
+  }
   if (process.platform !== "darwin") app.quit();
 });
 
@@ -199,5 +203,22 @@ ipcMain.handle("open-win", (_, arg) => {
     childWindow.loadURL(`${url}#${arg}`);
   } else {
     childWindow.loadFile(indexHtml, { hash: arg });
+  }
+});
+
+const JAR = "Application.jar";
+const JAR_PATH = join(app.getAppPath(), "src", "server", JAR);
+let server = null;
+import log from "electron-log/main";
+
+log.initialize({ preload: true });
+
+app.whenReady().then(() => {
+  server = spawn("java", ["-jar", JAR_PATH]);
+  if (server.pid) {
+    log.info(`server started with PID: ${server.pid}`);
+  } else {
+    log.error("server failed to start");
+    app.quit();
   }
 });
