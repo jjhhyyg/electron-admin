@@ -1,7 +1,7 @@
 {
-  "name": "electron-pure-admin",
+  "name": "judging-system",
   "version": "4.1.0",
-  "description": "electron-pure-admin",
+  "description": "评估系统",
   "private": true,
   "main": "dist-electron/main/index.js",
   "scripts": {

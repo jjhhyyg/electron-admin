@@ -207,13 +207,17 @@ ipcMain.handle("open-win", (_, arg) => {
 });
 
 const JAR = "Application.jar";
-const JAR_PATH = join(app.getAppPath(), "src", "server", JAR);
+const JAR_PATH = isDev
+  ? join(app.getAppPath(), "src", "server", JAR)
+  : join(app.getAppPath(), "..", "src", "server", JAR);
 let server = null;
 import log from "electron-log/main";
 
 log.initialize({ preload: true });
 
 app.whenReady().then(() => {
+  log.info("starting server");
+  log.info(`JAR_PATH: ${JAR_PATH}`);
   server = spawn("java", ["-jar", JAR_PATH]);
   if (server.pid) {
     log.info(`server started with PID: ${server.pid}`);
