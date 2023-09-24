@@ -3134,10 +3134,10 @@ electron-to-chromium@^1.4.411:
   resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.413.tgz#0067c3122946ae234cbefb9401ecefde851cdcf2"
   integrity sha512-Gd+/OAhRca06dkVxIQo/W7dr6Nmk9cx6lQdZ19GvFp51k5B/lUAokm6SJfNkdV8kFLsC3Z4sLTyEHWCnB1Efbw==
 
-electron@^25.0.0:
-  version "25.0.0"
-  resolved "https://registry.npmmirror.com/electron/-/electron-25.0.0.tgz#3c7cb7e74a271ebc183acaeefc4dd09f2eb079e5"
-  integrity sha512-8Bjlpw52XW447RKjYGaaizWI4x0dv4gATNn7ssuonySbDgeJNqUnIJQGBrpXyB3VUROVmhXnTWB9VWRzv6uVlA==
+electron@^25.8.2:
+  version "25.8.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-25.8.2.tgz#5e8ea742b68a7d1427bf78902ec40a5b7231a58b"
+  integrity sha512-AM1ra6b16EQuO1bJtiA8ZiWqqFLLgVfxD56ykiy+EA5C63Hkx8OmIbe+5JAsLiTwRVvBZ4oCAj6wa2qT+iq8ww==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^18.11.18"

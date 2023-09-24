@@ -82,7 +82,7 @@
     "cloc": "^2.11.0",
     "cross-env": "^7.0.3",
     "cssnano": "^6.0.1",
-    "electron": "^25.0.0",
+    "electron": "^25.8.2",
     "electron-builder": "^23.6.0",
     "eslint": "^8.40.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -129,11 +129,11 @@
     "vue-eslint-parser": "^9.2.1",
     "vue-tsc": "^1.6.4"
   },
-  "repository": "https://github.com/pure-admin/electron-pure-admin.git",
+  "repository": "https://github.com/jjhhyyg/electron-admin.git",
   "author": {
-    "email": "822388890@qq.com",
-    "name": "xiaoxian521",
-    "url": "https://github.com/xiaoxian521"
+    "email": "hosealle@outlook.com",
+    "name": "ErikssonHou",
+    "url": "https://github.com/jjhhyyg"
   },
   "license": "MIT"
 }
