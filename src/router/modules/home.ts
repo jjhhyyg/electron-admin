@@ -18,7 +18,7 @@ export default {
       component: () => import("@/views/welcome/index.vue"),
       meta: {
         title: "首页",
-        showLink: VITE_HIDE_HOME === "true" ? false : true
+        showLink: VITE_HIDE_HOME !== "true"
       }
     }
   ]

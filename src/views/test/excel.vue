@@ -46,6 +46,10 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 
+defineOptions({
+  name: "excelDisplay"
+});
+
 const jsonData = reactive([
   {
     user: "hc",

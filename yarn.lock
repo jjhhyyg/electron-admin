@@ -728,10 +728,59 @@
   resolved "https://registry.npmmirror.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@iconify-icons/ant-design@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/ant-design/-/ant-design-1.2.7.tgz#469fd675a2cc66b19e44f55407c93bc9915bcf61"
+  integrity sha512-PEQPQMX0TiSGTyUqBv7c3f+bzQqDSpsEwSSh0XFjDd6SnVjE0AoZTl2NYEUADsbTgnPXAH9YM9AF4GdtkiyJ2Q==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/carbon@^1.2.20":
+  version "1.2.20"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/carbon/-/carbon-1.2.20.tgz#00cc312e21cdc8df17d0f70948198126df6d39b0"
+  integrity sha512-QCsqNX5VRK8ZqAnwDhUHdJFdRIDCHM3bF+72DUCIi1bQ6L8n5amOP4ZND2q1TadtAjP7g6DEnS2a6780iPjx9Q==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/eos-icons@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/eos-icons/-/eos-icons-1.2.6.tgz#d9d6919c6364494e0a2c3504f98481849c281deb"
+  integrity sha512-+bHFS3iMrOjpS2Wehkh3lwIMo5VQfbk1/25eWGxHOzQMmrD+FunO4g4br4P5BEWIvO29byMAHl8l/5HSQkF/pA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-icons/ep@^1.2.11":
   version "1.2.11"
   resolved "https://registry.npmmirror.com/@iconify-icons/ep/-/ep-1.2.11.tgz#6c565f613fb88c0a38653f171338ffc45e25ec14"
   integrity sha512-6wBR3xVbWpEfxlkriDG27PT3Z0t09Z/G/IH05Ql7XlhVRs8v2bKFPslNHkwBnZXaaR9hTB+5J+MBR5rrK16vcw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/fluent-mdl2@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/fluent-mdl2/-/fluent-mdl2-1.2.1.tgz#5c8a22d1a1f48caac94f6f0ff1a65c69d3f47202"
+  integrity sha512-IgCILiyKWI8OVBXJTXJazyPw1Yqf22jTUUVEoOCIClmOnHjZvjEiE2/XMPi3IHqopDuoilrIFdmadvx0AGM46w==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/icon-park-outline@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/icon-park-outline/-/icon-park-outline-1.2.11.tgz#181fe35c9b09b2740c3e7b1f3e8441dbdf3b1f33"
+  integrity sha512-YfdXTQJNqHsmtwrYCRHQu3TfyB7ybT27rZj668ZLjRxWBW3QEVDnvIGkNWgCiMYVOxlZJHOidke33MvfFmcNhw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/mdi@^1.2.47":
+  version "1.2.47"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/mdi/-/mdi-1.2.47.tgz#9b8d84863fc7949c243d8c4f4981a1f7411ca73c"
+  integrity sha512-XwrHxJb2GzToyyoI9gaVm6/yE3aRlxB2IolKXzTEf6qAtjv3S4xFAxYaOlm6iuylQv+WyquH9C4cBudNPRHApg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/ph@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/ph/-/ph-1.2.5.tgz#141fdf12ff8b3e6c36902074835f8e0cea9d001c"
+  integrity sha512-Ox2VkJDoFowrf0e74LlLUuLMiN73PsCN28MUx9wCQfyZAFrL8ntfBnMpzukfi/0vN9qpJKAiKYZ3dQ5JjBqt/A==
   dependencies:
     "@iconify/types" "*"
 

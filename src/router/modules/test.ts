@@ -1,7 +1,8 @@
 export default {
   path: "/test",
   meta: {
-    title: "测试"
+    title: "测试",
+    showLink: false
   },
   children: [
     {
