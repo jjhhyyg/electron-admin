@@ -1,6 +1,6 @@
 {
   "name": "electron-pure-admin",
-  "version": "4.1.0",
+  "version": "0.0.1",
   "description": "electron-pure-admin",
   "private": true,
   "main": "dist-electron/main/index.js",

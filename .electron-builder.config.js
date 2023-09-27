@@ -46,6 +46,7 @@ module.exports = async function () {
       icon: "dist/icons/png",
       artifactName: "${productName}_${version}.${ext}",
       target: ["deb", "AppImage"]
-    }
+    },
+    extraResources: ["src/server/Application.jar"]
   };
 };
