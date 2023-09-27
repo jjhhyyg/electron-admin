@@ -5,7 +5,7 @@
 module.exports = async function () {
   return {
     appId: "com.pure.electron",
-    productName: "electron-pure-admin",
+    productName: "智能数据评估系统",
     copyright: "Copyright © 2020-present, pure-admin",
     publish: {
       provider: "github",
