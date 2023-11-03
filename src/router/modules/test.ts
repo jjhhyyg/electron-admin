@@ -22,6 +22,15 @@ export default {
         title: "echarts图表展示",
         showParent: true
       }
+    },
+    {
+      path: "/test/dirs",
+      name: "dirsSelect",
+      component: () => import("@/views/test/uploadLocalDirectory.vue"),
+      meta: {
+        title: "文件夹选择",
+        showParent: true
+      }
     }
   ]
 };

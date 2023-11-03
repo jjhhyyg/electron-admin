@@ -11,7 +11,10 @@ import {
 } from "electron";
 import { spawn } from "child_process";
 import log from "electron-log";
+
 log.scope("main process");
+
+let mainWindow;
 
 // The built directory structure
 //
@@ -89,6 +92,8 @@ async function createWindow() {
   } else {
     win.loadFile(indexHtml);
   }
+
+  mainWindow = win;
 
   createMenu();
 
@@ -225,4 +230,14 @@ app.whenReady().then(() => {
     log.error("server failed to start");
     app.quit();
   }
+});
+
+import { dialog } from "electron";
+
+ipcMain.on("select-dirs", async (event, _) => {
+  const result = await dialog.showOpenDialog(mainWindow, {
+    properties: ["openDirectory"]
+  });
+  console.log("directories selected", result.filePaths[0]);
+  event.reply("selected-dir", result.filePaths[0]);
 });

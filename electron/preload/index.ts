@@ -87,8 +87,16 @@ function useLoading() {
 const { appendLoading, removeLoading } = useLoading();
 domReady().then(appendLoading);
 
-window.onmessage = ev => {
-  ev.data.payload === "removeLoading" && removeLoading();
+window.onmessage = event => {
+  event.data.payload === "removeLoading" && removeLoading();
 };
 
 setTimeout(removeLoading, 4999);
+
+import { ipcRenderer } from "electron";
+
+window.addEventListener("message", event => {
+  if (event.data && event.data.type === "select-dirs") {
+    ipcRenderer.send("select-dirs");
+  }
+});
